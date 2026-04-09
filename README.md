@@ -90,3 +90,9 @@ API docs available at `http://localhost:8000/docs`
 | POST | `/decision` | Queue a new decision job |
 | GET | `/decisions` | List all decisions |
 | GET | `/decisions/{id}` | Get a specific decision |
+
+## Roadmap
+
+- [ ] Deploy API on AWS Lambda + API Gateway
+- [ ] Add pytest test suite for scoring logic and API endpoints
+- [ ] Add retry logic with dead letter queue for failed jobs
